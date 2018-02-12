@@ -1,0 +1,19 @@
+package fh2229.com.data;
+
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
+/**
+ * Created by fushiyong on 2018/2/9.
+ */
+@Getter
+@Setter
+@Data
+public class ChangeOddsData {
+    private boolean status ;
+
+    private String info ;
+
+    private String  data;
+}
